@@ -4,4 +4,4 @@
 [Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)
 
 
-![CI](https://github.com/ilovebreak/hometask_09-01/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/ilovebreak/GoblinGame/actions/workflows/web.yml/badge.svg)
