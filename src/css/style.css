@@ -1,0 +1,20 @@
+body {
+    color: #999;
+}
+
+.row {
+    display:flex;
+    width: 488px;
+}
+.cell {
+    background-color: aquamarine;
+    border: solid 1px black;
+    width: 120px;
+    height: 120px;
+}
+
+.goblin {
+    width: 120px; 
+    height: 120px; 
+    background-image: url("../img/goblin.png")
+}
