@@ -32,10 +32,6 @@ table {
     background-color:aliceblue  ;
 }
 
-.heading, .win-count, .lose-count {
-    width: 244px;
-    border: solid 1px black;
-}
 
 .result {
     margin-top: 20px;
@@ -50,4 +46,9 @@ table {
 
 .result-lose {
     color: red;
+}
+
+.heading, .win-count, .lose-count {
+    width: 244px;
+    border: solid 1px black;
 }

@@ -12,9 +12,7 @@ export default class Game {
     this.gameField.addEventListener("click", (event) => {
       console.log(event.target);
       if (event.target.className === "goblin") {
-        console.log("goal!");
         this.winCounter += 1;
-        console.log(this.winCounter);
         this.winTable.textContent = this.winCounter;
         if (this.winCounter >= 5) {
           this.resultField.className = "result result-win";
@@ -26,7 +24,6 @@ export default class Game {
         }
       } else {
         this.loseCounter += 1;
-        console.log(this.loseCounter);
         this.loseTable.textContent = this.loseCounter;
         if (this.loseCounter >= 5) {
           this.resultField.className = "result result-lose";
