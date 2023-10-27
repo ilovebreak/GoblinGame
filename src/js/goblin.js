@@ -12,6 +12,7 @@ export default class Goblin {
 
   moveToRandomCell() {
     let currentCell = this.element.parentElement;
+    this.element.className = "goblin";
     let currentId = currentCell.id;
     while (currentId == this.targetId) {
       this.targetId = this.defineRandomId();

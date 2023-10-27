@@ -12,6 +12,8 @@ export default class Game {
     this.gameField.addEventListener("click", (event) => {
       console.log(event.target);
       if (event.target.className === "goblin") {
+        event.target.className = "cell";
+        // debugger
         this.winCounter += 1;
         this.winTable.textContent = this.winCounter;
         if (this.winCounter >= 5) {
