@@ -1,5 +1,7 @@
 body {
     color: #999;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
 }
 
 .row {
@@ -16,5 +18,36 @@ body {
 .goblin {
     width: 120px; 
     height: 120px; 
-    background-image: url("../img/goblin.png")
+    background-image: url("../img/goblin.png");
+    /* cursor: move; */
+    cursor: url('../img/hammer 50x50-2.png'), url('../img/hammer 30x30-2.png'), move;
+}
+
+table {
+    font-size: 35px;
+    text-align: center;
+    display:flex;
+    width: 488px;
+    margin-top: 30px;
+    background-color:aliceblue  ;
+}
+
+.heading, .win-count, .lose-count {
+    width: 244px;
+    border: solid 1px black;
+}
+
+.result {
+    margin-top: 20px;
+    width: 488px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.result-win {
+    color: green;
+}
+
+.result-lose {
+    color: red;
 }
