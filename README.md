@@ -1,7 +1,6 @@
-# Webpack5
+# Домашнее задание Игра с гоблином.
 
-[Руководство по настройке Webpack](https://webpack.js.org/guides/)
-[Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)
+[Ссылка на GitHub Pages](https://ilovebreak.github.io/GoblinGame/)
 
 
 ![CI](https://github.com/ilovebreak/GoblinGame/actions/workflows/web.yml/badge.svg)
